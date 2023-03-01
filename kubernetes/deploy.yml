@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: <deployment-name>
+spec:
+  replicas: <num-replicas>
+  selector:
+    matchLabels:
+      chapter: sdev372
+  template:
+    metadata:
+      labels:
+        chapter: sdev372
+    spec:
+      containers:
+      - name: <container-name>
+        image: <image-name>
+        ports:
+        - containerPort: 8080
