@@ -1,0 +1,39 @@
+html {
+    background-color: darkred;
+}
+
+body {
+    background-color: beige;
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    background-color: lightblue;
+    color: darkblue;
+    border-radius: 50px;
+    height: 100px;
+    margin: 10px;
+}
+
+p {
+    font-size: 3em;
+}
